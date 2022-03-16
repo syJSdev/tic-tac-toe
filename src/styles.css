@@ -1,0 +1,37 @@
+.app {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+header {
+  padding: 24px 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.board {
+  border: 1px solid black;
+}
+
+.row {
+  display: flex;
+}
+
+.row + .row {
+  border-top: 1px solid black;
+}
+
+.square {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  width: 100px;
+}
+
+.square + .square {
+  border-left: 1px solid black;
+}
